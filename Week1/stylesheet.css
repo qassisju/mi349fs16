@@ -28,7 +28,7 @@ h1 {
 h2 {
     padding: 7px;
     border-style:solid;
-    background-color: #white;
+    background-color: white;
     padding-right: 50px;
     color: #FF6;
 }
@@ -37,5 +37,13 @@ h3 {
     text-align: center;
     background-color: white;
     color: #909;
+
+}
+
+h4 {
+    text-align: center;
+    background-color: white;
+    color: #909;
+
 
 }
