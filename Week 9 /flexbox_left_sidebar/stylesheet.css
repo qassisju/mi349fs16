@@ -32,7 +32,7 @@ header, footer {
     flex: 1 1 0;
 }
 
-.content section:nth-of-type(3) {
+.content section:nth-of-type(1) {
     flex: 3 3 0;
 }
 
