@@ -52,21 +52,7 @@ li {
 @media(min-width: 800px) {
     .content img {
         width: 500px;
-        /*align-content:right;
-        position: relative;
-        left:800px;
-        bottom: 550px;
 
-        align: right;
-
-        position: fixed;
-        top:30%;
-        left:50%;
-        border-style:solid;
-        border-width:5px;
-
-        flex: 1 1 0;
-        */
         display: flex;
         margin-left: auto;
         position: fixed;
@@ -159,36 +145,18 @@ input[type=text] {
 }
 @media(min-width: 800px) {
     .workExperience {
-         /*margin-right: 1200px;
-         font-size: 20px;
-         color: white;
-         font-style: italic;
-         position: relative;
-         left: 500px;
-         bottom: 367px;
-         */
-        /* display: flex;
-         margin-left: auto;
-         position: absolute;
-         top: 20%;
-         left: 40%;
-         font-size: 20px;
-         color: white;
-         font-style: italic;
-         margin-right: 600px;
-         */
 
 
         font-size: 20px;
         color: white;
-        font-style:italic;
+        font-style: italic;
         position: absolute;
-        top:8%;
-        left:40%;
-        margin-right:550px;
-     }
-    .resumeLink {
+        top: 8%;
+        left: 40%;
+        margin-right: 550px;
+    }
 
+    .resumeLink {
 
         font-size: 20px;
         color: white;
@@ -196,65 +164,17 @@ input[type=text] {
         position: absolute;
         left: 1400px;
         bottom: 760px;
-        margin-right:100px;
+        margin-right: 100px;
 
     }
 
     a {
-        color:white;
+        color: white;
     }
 
-
-    /*#workExperience{
-        color:red;
-        font-style:italic;
-        position:absolute;
-        left: 30%;
-        bottom:82%;
+    a {
+        color: white;
     }
-    */
-
-}
-/*.workExperience {
-    /*margin-right: 1200px;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    position: relative;
-    left: 500px;
-    bottom: 367px;
-
-    display: flex;
-    margin-left:  auto;
-    position: fixed;
-    top: 20%;
-    left: 40%;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    margin-right: 600px;
-}
-*/
-
-
-
-
-/*.resumeLink {
-
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    position: absolute;
-    left: 1400px;
-    bottom: 760px;
-
-}
-*/
-
-
-
-a {
-    color:white;
 }
 
 
