@@ -1,139 +1,266 @@
+
+
 body {
-    background: url("sports.jpg");
+    background: url("backgroundHome.jpg");
     margin: 0;
 
 }
 
-@media(max-width:2000px) {
-    .education  {
-        background: url("detroit2.jpg")
-    }
 
 
 
-    h1 {
-        margin:0;
-        color:green;
 
-    }
-    header {
-        background: url("detroit.jpg");
-        text-align: center;
-        opacity: 0.8;
+h1 {
+    margin:0;
+    color:green;
 
-        background-size: cover;
-    }
-    li {
-        display: inline;
-        padding: 0px 10px 0px 10px;
-        font-family:Helvetica;
-        font-size: 20px;
+}
+header {
+    background: url("detroit.jpg");
+    text-align: center;
+    opacity: 0.8;
+    background-size: cover;
 
-    }
-
-    .content {
-        margin-right: 800px;
-        font-size: 46px;
-        color:white;
-        font-style: italic;
+}
+header a {
+    color:black;
+}
 
 
 
-    }
 
+
+
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-family:Helvetica;
+    font-size: 20px;
+
+}
+
+
+.content {
+    margin-right: 800px;
+    font-size: 46px;
+    color:white;
+    font-style: italic;
+
+}
+
+@media(min-width: 800px) {
     .content img {
         width: 500px;
-        align-content:right;
+        /*align-content:right;
         position: relative;
-        left:1200px;
-        bottom: 320px;
+        left:800px;
+        bottom: 550px;
+
+        align: right;
+
+        position: fixed;
+        top:30%;
+        left:50%;
         border-style:solid;
         border-width:5px;
 
+        flex: 1 1 0;
+        */
+        display: flex;
+        margin-left: auto;
+        position: fixed;
+        top: 20%;
+        left: 60%;
 
     }
+}
 
-    .aboutMe {
-        margin-right: 500px;
-        font-size: 24px;
-        color:white;
-        font-style: italic;
-    }
 
-    h2 {
-        color:red;
-    }
-    .aboutMe li {
-        display: block;
-    }
 
-    .aboutMeBasic {
-        background: url("red_wings.jpg");
-    }
 
-    input[type=text] {
-        width: 20%;
-    }
-    .contact {
-        background: url("golf.jpg");
+.aboutMe {
+    margin-right: 500px;
+    font-size: 24px;
+    color:white;
+    font-style: italic;
+}
 
-    }
-    #email {
-        width: 20%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        left: 40px;
-    }
+h2 {
+    color:red;
+}
+.aboutMe li {
+    display: block;
+}
 
-    #name {
-        width: 20%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        left: 40px;
+.aboutMeBasic {
+    background: url("red_wings.jpg");
+}
 
-    }
+input[type=text] {
+    width: 20%;
+}
 
-    #comment {
-        width: 20%;
-        padding: 150px 50px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        left: 40px;
-
-    }
-
-    #submitButton {
-        border:none;
-        color:red;
-        width: 9em;  height: 2em;
-        font-size: 20px;
-    }
-
-    #reset {
-        border:none;
-        color:red;
-        width: 9em;  height: 2em;
-        font-size: 20px;
-    }
-
-    .educationContent {
-        margin-right: 1200px;
-        font-size: 20px;
-        color: white;
-        font-style: italic;
-    }
-
-    .workExperience {
-        margin-right: 1200px;
-        font-size: 20px;
-        color: white;
-        font-style: italic;
-        position: relative;
-        left: 1000px;
-        bottom: 176px;
-    }
-
+.contact {
+    background: url("golf.jpg");
 
 }
+
+#email {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    left: 40px;
+}
+
+#name {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    left: 40px;
+
+}
+
+#comment {
+    width: 20%;
+    padding: 150px 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    left: 40px;
+
+}
+
+#submitButton {
+    border:none;
+    color:red;
+    width: 9em;  height: 2em;
+    font-size: 20px;
+}
+
+#reset {
+    border:none;
+    color:red;
+    width: 9em;  height: 2em;
+    font-size: 20px;
+}
+
+.education {
+    background: url("education.jpg");
+}
+
+.educationContent {
+    margin-right: 1200px;
+    font-size: 20px;
+    color: white;
+    font-style:italic;
+
+}
+@media(min-width: 800px) {
+    .workExperience {
+         /*margin-right: 1200px;
+         font-size: 20px;
+         color: white;
+         font-style: italic;
+         position: relative;
+         left: 500px;
+         bottom: 367px;
+         */
+        /* display: flex;
+         margin-left: auto;
+         position: absolute;
+         top: 20%;
+         left: 40%;
+         font-size: 20px;
+         color: white;
+         font-style: italic;
+         margin-right: 600px;
+         */
+
+
+        font-size: 20px;
+        color: white;
+        font-style:italic;
+        position: absolute;
+        top:8%;
+        left:40%;
+        margin-right:550px;
+     }
+    .resumeLink {
+
+
+        font-size: 20px;
+        color: white;
+        font-style: italic;
+        position: absolute;
+        left: 1400px;
+        bottom: 760px;
+        margin-right:100px;
+
+    }
+
+    a {
+        color:white;
+    }
+
+
+    /*#workExperience{
+        color:red;
+        font-style:italic;
+        position:absolute;
+        left: 30%;
+        bottom:82%;
+    }
+    */
+
+}
+/*.workExperience {
+    /*margin-right: 1200px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    position: relative;
+    left: 500px;
+    bottom: 367px;
+
+    display: flex;
+    margin-left:  auto;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    margin-right: 600px;
+}
+*/
+
+
+
+
+/*.resumeLink {
+
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    position: absolute;
+    left: 1400px;
+    bottom: 760px;
+
+}
+*/
+
+
+
+a {
+    color:white;
+}
+
+
+
+
+
+
+
+
